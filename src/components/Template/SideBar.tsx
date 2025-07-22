@@ -28,7 +28,8 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Zekai (Kai). I am currently a PhD student at UBC Vancouver, focusing on Systems & Contorl, <a href="https://www.tudelft.nl/en/">TU Delft</a> alumnus.
+          Hi, I&apos;m Zekai (Kai). I am currently a PhD student at UBC Vancouver, focusing on
+          Systems & Contorl, <a href="https://www.tudelft.nl/en/">TU Delft</a> alumnus.
         </p>
         <ul className="actions">
           <li>
