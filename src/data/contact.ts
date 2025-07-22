@@ -48,7 +48,7 @@ const data: ContactItem[] = [
   //   icon: faTwitter,
   // },
   {
-    link: 'chenzk0429@gmail.com',
+    link: 'mailto:chenzk0429@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
