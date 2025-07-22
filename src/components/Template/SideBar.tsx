@@ -15,12 +15,12 @@ const SideBar: React.FC = () => {
     <section id="sidebar">
       <section id="intro">
         <Link href="/" className="logo">
-          <Image src="/images/me.jpg" alt="Michael D'Angelo" width={200} height={200} priority />
+          <Image src="/images/me.jpg" alt="Zekai Chen" width={400} height={160} priority />
         </Link>
         <header>
-          <h2>Michael D&apos;Angelo</h2>
+          <h2>Zekai Chen</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="chenzk0429@gmail.com">chenzk0429@gmail.com</a>
           </p>
         </header>
       </section>
@@ -28,12 +28,7 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a>{' '}
-          graduate, YC alumnus, and the co-founder and CTO of{' '}
-          <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of Engineering at{' '}
-          <a href="https://usesmileid.com">SmileID</a>, co-founder and CTO of{' '}
-          <a href="https://arthena.com">Arthena</a>, and co-founded{' '}
-          <a href="https://matroid.com">Matroid</a>.
+          Hi, I&apos;m Zekai (Kai). I am currently a PhD student at UBC Vancouver, focusing on Systems & Contorl, <a href="https://www.tudelft.nl/en/">TU Delft</a> alumnus.
         </p>
         <ul className="actions">
           <li>
@@ -53,7 +48,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Zekai Chen <Link href="/">davidchen0429.github.io</Link>.
         </p>
       </section>
     </section>
