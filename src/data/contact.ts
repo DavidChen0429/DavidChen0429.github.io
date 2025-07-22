@@ -5,7 +5,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
+import { faBookmark } from '@fortawesome/free-regular-svg-icons/faBookmark';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
+import { faFileText } from '@fortawesome/free-regular-svg-icons/faFileText';
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons/faPaperPlane';
 
 export interface ContactItem {
   link: string;
@@ -15,39 +18,54 @@ export interface ContactItem {
 
 const data: ContactItem[] = [
   {
-    link: 'https://github.com/mldangelo',
+    link: 'https://github.com/DavidChen0429',
     label: 'Github',
     icon: faGithub,
   },
+  // {
+  //   link: 'https://facebook.com/d',
+  //   label: 'Facebook',
+  //   icon: faFacebookF,
+  // },
+  // {
+  //   link: 'https://www.instagram.com/dangelosaurus/',
+  //   label: 'Instagram',
+  //   icon: faInstagram,
+  // },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/zekai-david-chen/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
+  // {
+  //   link: 'https://angel.co/michael-d-angelo',
+  //   label: 'Angel List',
+  //   icon: faAngellist,
+  // },
+  // {
+  //   link: 'https://twitter.com/dangelosaurus',
+  //   label: 'Twitter',
+  //   icon: faTwitter,
+  // },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'chenzk0429@gmail.com',
     label: 'Email',
     icon: faEnvelope,
+  },
+  {
+    link: 'https://scholar.google.com/citations?user=qHe4B1MAAAAJ&hl=en',
+    label: 'Book',
+    icon: faBookmark,
+  },
+  {
+    link: '/CV_Zekai_Chen.pdf',
+    label: 'CV',
+    icon: faFileText,
+  },
+  {
+    link: 'https://www.google.com/', // Volunteering experience!!!!
+    label: 'Volunteer',
+    icon: faPaperPlane,
   },
 ];
 

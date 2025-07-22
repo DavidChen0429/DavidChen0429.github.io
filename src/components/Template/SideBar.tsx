@@ -28,8 +28,9 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Zekai (Kai). I am currently a PhD student at UBC Vancouver, focusing on
-          Systems & Contorl, <a href="https://www.tudelft.nl/en/">TU Delft</a> alumnus.
+          Hi, I&apos;m Zekai (Kai). I am currently a PhD student at the University of British
+          Columbia (UBC) Vancouver, focusing on Systems & Control. Becoming Mr. Worldwide with a
+          strong passion for Systems & Control, AI, Robotics, and life in general!
         </p>
         <ul className="actions">
           <li>
