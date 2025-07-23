@@ -14,14 +14,13 @@ import work from '@/data/resume/work';
 
 export const metadata: Metadata = {
   title: 'Resume',
-  description:
-    "Zekai Chen's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+  description: "Zekai Chen's Resume.",
 };
 
 const sections = [
   { name: 'Education', id: 'education' },
   { name: 'Experience', id: 'experience' },
-  { name: 'Skills', id: 'skills' },
+  // { name: 'Skills', id: 'skills' },
   { name: 'Courses', id: 'courses' },
   { name: 'References', id: 'references' },
 ];
@@ -52,10 +51,10 @@ export default function ResumePage() {
         <Experience data={work} />
       </section>
 
-      <section id="skills" className="skills">
+      {/* <section id="skills" className="skills">
         <div className="link-to" />
         <Skills skills={skills} categories={categories} />
-      </section>
+      </section> */}
 
       <section id="courses" className="courses">
         <div className="link-to" />

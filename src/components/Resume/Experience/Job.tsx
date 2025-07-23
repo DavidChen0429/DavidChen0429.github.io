@@ -10,7 +10,7 @@ interface JobProps {
 }
 
 const Job: React.FC<JobProps> = ({ data }) => {
-  const { name, position, url, startDate, endDate, summary, highlights } = data;
+  const { name, position, url, location, startDate, endDate, summary, highlights } = data;
 
   return (
     <article className="jobs-container">
@@ -23,6 +23,7 @@ const Job: React.FC<JobProps> = ({ data }) => {
           {dayjs(startDate).format('MMMM YYYY')} -{' '}
           {endDate ? dayjs(endDate).format('MMMM YYYY') : 'PRESENT'}
         </p>
+        <p className="location">{location}</p>
       </header>
       {summary ? (
         <Markdown

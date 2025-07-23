@@ -1,22 +1,36 @@
 export interface Degree {
   school: string;
   degree: string;
+  supervisor: string;
+  supervisorlink: string;
   link: string;
-  year: number;
+  year: string;
 }
 
 const degrees: Degree[] = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'University of British Columbia',
+    degree: 'P.hD. Mechanical Engineering',
+    supervisor: 'Ryozo Nagamune',
+    supervisorlink: 'https://mech.ubc.ca/ryozo-nagamune/',
+    link: 'https://www.ubc.ca/',
+    year: '2026 - Ongoing',
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Delft University of Technology',
+    degree: 'M.Sc. Systems and Control',
+    supervisor: 'Jan-Willem van Wingerden',
+    supervisorlink: 'https://www.janwillemvanwingerden.nl/',
+    link: 'https://www.tudelft.nl/en/',
+    year: '2022 - 2025',
+  },
+  {
+    school: 'Beijing Institute of Technology',
+    degree: 'B.S. Automation Engineering',
+    supervisor: 'Kun Liu',
+    supervisorlink: 'https://kunliubit.github.io/',
+    link: 'https://english.bit.edu.cn/',
+    year: '2018 - 2022',
   },
 ];
 

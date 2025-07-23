@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     url: 'https://davidchen0429.github.io/',
     siteName: 'Zekai Chen',
     title: 'Zekai Chen',
-    description: 'Data scientist, machine learning engineer, and full-stack developer.',
+    description: 'Researcher and engineer in systems and control.',
     images: [
       {
         url: '/images/me.jpg',

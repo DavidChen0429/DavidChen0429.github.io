@@ -63,8 +63,8 @@ const data: ContactItem[] = [
     icon: faFileText,
   },
   {
-    link: 'https://www.google.com/', // Volunteering experience!!!!
-    label: 'Volunteer',
+    link: 'https://medium.com/@chenzk0429',
+    label: 'Blogs and Social Events',
     icon: faPaperPlane,
   },
 ];

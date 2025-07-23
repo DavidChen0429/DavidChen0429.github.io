@@ -13,6 +13,9 @@ const Degree: React.FC<DegreeProps> = ({ data }) => (
       <p className="school">
         <a href={data.link}>{data.school}</a>, {data.year}
       </p>
+      <p className="supervisor">
+        Professor <a href={data.supervisorlink}>{data.supervisor}</a>
+      </p>
     </header>
   </article>
 );
