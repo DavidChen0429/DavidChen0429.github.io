@@ -8,7 +8,7 @@ const awards: Awards[] = [
   { Name: 'Outstanding Student Scholarship (BIT) 2019-2021 (x3).' },
   { Name: 'Outstanding Bachelor Student Researcher (BIT) 2020.' },
   {
-    Name: 'First prize of "Challenge Cup National Academic and Technological Competition" (BIT) 2019.',
+    Name: 'Challenge Cup National Academic and Technological Competition - First Prize (China) 2019.',
   },
 ];
 
