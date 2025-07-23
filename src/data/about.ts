@@ -24,6 +24,8 @@ Hey! I am currently a PhD student at the University of British Columbia (Vancouv
 
 - I once spent 2 hours just chopping onions to prepare dinner for my 45 teammates in [my race car team](https://www.fsteamdelft.nl/)!
 - I walked 40 km from Rotterdam to The Hague for the charity event [Nacht van de Vluchteling](https://www.vluchteling.nl/hoe-jij-kunt-helpen/nacht-van-de-vluchteling) to support refugees.
+- I have done a crazy roadtrip from Beijing to Tibet, and witnessed the peak of Mount Qomolangma (8848.86m) at the altitutde of 5200m. Easily one of the coolest things I’ve ever done.
+- I did 300+ squats in a single day chasing runaway balls while volunteering at the China Science and Technology Museum, all while trying to explain gravity to a bunch of curious 5-year-olds. Let's just say... both my legs and my patience got a workout!
 - Being a pilot has always been my dream.
 
 # I Dream Of

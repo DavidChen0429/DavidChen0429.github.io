@@ -14,6 +14,16 @@ export interface Position {
 
 const work: Position[] = [
   {
+    name: 'HAI Robotics',
+    position: 'Application Engineer',
+    url: 'https://www.hairobotics.com/',
+    location: 'Amsterdam, the Netherlands',
+    startDate: '2025-08-01',
+    // endDate: '2024-08-31',
+    summary: 'Automation warehouse',
+    highlights: ['Something here.'],
+  },
+  {
     name: 'Formula Racing Team Delft',
     position: 'Control Engineer',
     url: 'https://www.fsteamdelft.nl/',
@@ -21,14 +31,14 @@ const work: Position[] = [
     startDate: '2023-08-01',
     endDate: '2024-08-31',
     summary:
-      'Control system engineer in the vehicle dynamic and control department. Directed a multidisciplinary team of five engineers to develop cutting-edge autonomous racing systems.',
+      'I worked as a control system engineer in the department of vehicle dynamic and control. Within the team, I am in charge of developing cutting-edge autonomous racing systems with a multidisciplinary team of five engineers using AI and advanced control technology.',
     highlights: [
-      'Architected the complete autonomous system framework, covering perception, vehicle modeling, state estimation, and control.',
-      'Built robust state estimation pipelines using first-principle vehicle models and Kalman filtering techniques.',
-      'Developed a new 2 DOF control system that generates control inputs through real-time optimization using Model Predictive Control (MPC), eliminating instability issues caused by the decoupled PI and Stanley controllers. This significantly enhanced the system robustness and performance.',
-      'Integrated systems via ROS on Ubuntu 22.04 and led system deployment and testing on the DUT24 race car.',
-      'Represented the team in high-impact technical presentations to sponsors (KLM, Shell) and showcased the system at the public car roll-off event.',
-      'Docker, Python3, ROS, Linux, source control, technical meeting, design discussion',
+      'Acted as a technical lead in the autonomous team. Conducted technical requirement analysis, and architected the complete autonomous system framework, covering perception, vehicle modeling, state estimation, and control. Created documentations, visualizaitons, and presentations for the designed framework.',
+      'Used Python3 to build to robust state estimation based on first-principle vehicle models and a Kalman filter to reconstruct all the race car states using sensor data (LiDAR, IMU, Gyroscope).',
+      'Developed a new 2 DOF control system that generates control inputs through real-time optimization using Model Predictive Control (MPC) using Python3 on ROS platform, eliminating instability issues caused by the decoupled PI and Stanley controllers. This significantly enhanced the system robustness and performance.',
+      'Led weekly technical code reviews for platform components in Python, MATLAB, and C++. Implemented and maintained source control to code across platform components using Git and Docker.',
+      'Integrated systems via ROS and led cross-deparment system deployment and testing on the DUT24 race car. The built system is able to finish Skidpad racing robustly (90% team failed).',
+      'Represented the team in high-impact technical presentations to sponsors (KLM and Shell) and showcased the system at the public car roll-off event.',
     ],
   },
   {
@@ -38,13 +48,13 @@ const work: Position[] = [
     location: 'Beijing, China',
     startDate: '2021-05-01',
     endDate: '2021-11-31',
-    summary: `Joined as a System and Application Engineering Intern, responsible for the fault detection component of the
- 5G AI (Machine Learning Based) Toolkit.`,
+    summary: `I joined Ericsson as a System and Application Engineering Intern, responsible in developing the fault detection module within the 5G Machine Learning Toolkit for baseband communication systems..`,
     highlights: [
-      'Automated data-processing pipeline and modeled a 5G baseband communication system using XGBoost, achieving 80% accuracy on real-world data. The model captures system dynamics while remaining explainable to engineers and researchers',
-      'Developed a fault detection module based on a clustering algorithm for rapid anomaly identification and root cause analysis based on XGBoost, enabling 3 times faster detection and providing interpretable error factors for debugging',
-      'Contributed to pattern recognition research in 5G with a multinational team by authoring technical reports and optimizing the codebase.',
-      'Coordinated key team activities, including interviews and weekly technical meetings.',
+      'Developed an automated data-processing pipeline in Python3, enabling seamless data ingestion, NaN handling, restructuring, correlation analysis, and key feature extraction.',
+      'Modeled Ericsson 5G baseband communication station in Beijing (serving a population of 22 million) using XGBoost. The model achieved 80% accuracy on real-world data, effectively capturing system dynamics while maintaining interpretability for engineers and researchers.',
+      'Developed a fault detection module based on a clustering algorithm in Python3 for anomaly detection and root cause analysis. Created visualization of the result using Power BI, enabling 3 times faster detection and providing interpretable error factors for debugging.',
+      'Authored technical documentation for the 5G Machine Learning Toolkit and contributed to pattern recognition research in 5G systems as part of a multinational engineering team.',
+      'Coordinated weekly technical meetings, interviews, and guest lectures in both English and Chinese. Also contributed to cross-department event planning, including knowledge-sharing sessions and collaborative initiatives.',
     ],
   },
 ];
