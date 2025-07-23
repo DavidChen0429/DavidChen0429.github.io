@@ -23,35 +23,34 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Zekai Chen",
-    template: "%s | Zekai Chen",
+    default: 'Zekai Chen',
+    template: '%s | Zekai Chen',
   },
-  description:
-    "Zekai Chen's personal website.",
+  description: "Zekai Chen's personal website.",
   keywords: [
-    "Zekai Chen",
-    "researcher",
+    'Zekai Chen',
+    'researcher',
     'control engineer',
     'machine learning',
     'engineer',
     'portfolio',
   ],
-  authors: [{ name: "Zekai Chen" }],
-  creator: "Zekai Chen",
+  authors: [{ name: 'Zekai Chen' }],
+  creator: 'Zekai Chen',
   metadataBase: new URL('https://davidchen0429.github.io/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://davidchen0429.github.io/',
-    siteName: "Zekai Chen",
-    title: "Zekai Chen",
+    siteName: 'Zekai Chen',
+    title: 'Zekai Chen',
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Zekai Chen",
+        alt: 'Zekai Chen',
       },
     ],
   },
