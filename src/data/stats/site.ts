@@ -22,10 +22,10 @@ const data: StatData[] = [
   //   key: 'forks',
   //   link: 'https://github.com/mldangelo/personal-site/network',
   // },
-  {
-    label: 'Number of spoons',
-    value: '0',
-  },
+  // {
+  //   label: 'Number of spoons',
+  //   value: '0',
+  // },
   // {
   //   label: 'Number of linter warnings',
   //   value: '0', // enforced via github workflow

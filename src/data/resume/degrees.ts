@@ -9,7 +9,7 @@ export interface Degree {
 
 const degrees: Degree[] = [
   {
-    school: 'University of British Columbia',
+    school: 'University of British Columbia (UBC)',
     degree: 'P.hD. Mechanical Engineering',
     supervisor: 'Ryozo Nagamune',
     supervisorlink: 'https://mech.ubc.ca/ryozo-nagamune/',
@@ -17,7 +17,7 @@ const degrees: Degree[] = [
     year: '2026 - Ongoing',
   },
   {
-    school: 'Delft University of Technology',
+    school: 'Delft University of Technology (TU Delft)',
     degree: 'M.Sc. Systems and Control',
     supervisor: 'Jan-Willem van Wingerden',
     supervisorlink: 'https://www.janwillemvanwingerden.nl/',
@@ -25,7 +25,7 @@ const degrees: Degree[] = [
     year: '2022 - 2025',
   },
   {
-    school: 'Beijing Institute of Technology',
+    school: 'Beijing Institute of Technology (BIT)',
     degree: 'B.S. Automation Engineering',
     supervisor: 'Kun Liu',
     supervisorlink: 'https://kunliubit.github.io/',

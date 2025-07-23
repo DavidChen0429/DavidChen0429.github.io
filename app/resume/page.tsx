@@ -59,11 +59,6 @@ export default function ResumePage() {
         <Experience data={work} />
       </section>
 
-      {/* <section id="experience" className="experience">
-        <div className="link-to" />
-        <Experience data={work} />
-      </section> */}
-
       {/* <section id="skills" className="skills">
         <div className="link-to" />
         <Skills skills={skills} categories={categories} />
