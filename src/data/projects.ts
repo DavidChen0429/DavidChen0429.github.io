@@ -5,7 +5,6 @@ export interface Project {
   image: string;
   date: string;
   desc: string;
-  slug?: string; // Optional slug for routing
 }
 
 const data: Project[] = [
