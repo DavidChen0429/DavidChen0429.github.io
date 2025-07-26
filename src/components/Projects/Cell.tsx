@@ -11,24 +11,6 @@ interface CellProps {
   data: Project;
 }
 
-// const Cell: React.FC<CellProps> = ({ data }) => (
-//   <div className="cell-container">
-//     <article className="mini-post">
-//       <header>
-//         <h3>
-//           <Link href={`/projects/${data.slug}`}>{data.title}</Link>
-//         </h3>
-//         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
-//       </header>
-//       <Link href={`/projects/${data.slug}`} className="image">
-//         <Image src={data.image} alt={data.title} width={600} height={400} />
-//       </Link>
-//       <div className="description">
-//         <p>{data.desc}</p>
-//       </div>
-//     </article>
-//   </div>
-
 const Cell: React.FC<CellProps> = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
@@ -39,7 +21,7 @@ const Cell: React.FC<CellProps> = ({ data }) => (
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
       </header>
       <a href={data.link} className="image">
-        <Image src={data.image} alt={data.title} width={600} height={400} />
+        <Image src={data.image} alt={data.title} width={600} height={500} />
       </a>
       <div className="description">
         <p>{data.desc}</p>
