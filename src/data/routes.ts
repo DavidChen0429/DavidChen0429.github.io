@@ -2,6 +2,7 @@ export interface Route {
   label: string;
   path: string;
   index?: boolean;
+  link?: string;
 }
 
 const routes: Route[] = [
@@ -24,7 +25,8 @@ const routes: Route[] = [
   },
   {
     label: 'Publications',
-    path: '/stats',
+    path: '/',
+    link: 'https://scholar.google.com/citations?user=qHe4B1MAAAAJ&hl=en',
   },
   {
     label: 'Stats & Stories',
