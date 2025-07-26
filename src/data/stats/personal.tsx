@@ -31,6 +31,11 @@ const data: StatData[] = [
     value: <Age />,
   },
   {
+    key: 'MBTI Personality',
+    label: 'MBTI Personality',
+    value: 'ENTJ',
+  },
+  {
     key: 'countries',
     label: 'Countries visited/Stayed',
     value: 15,
