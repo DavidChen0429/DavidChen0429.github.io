@@ -17,8 +17,8 @@ const data: Project[] = [
     desc:
       'Wind turbines suffer from wake effect in a wind farm, which reduce the power production and increase structural load for downstream turbines. ' +
       'While wake mixing control has shown promise in mitigating this effect, current methods are implemented in open-loop configurations, limiting wind farm ability to handle uncertainties and external disturbance. ' +
-      'Our work address this issue by incorporating LiDAR sensing technology to build a flow-informed closed-loop wake mixing control framwork. To put in a more interesting way --- letting the turbine to see the wind. ' +
-      'Thus, allowing them to form control action adaptivly and dynamically, making them smarter and more autonomous in decision-making.',
+      'Our work address this issue by incorporating LiDAR sensing technology to build a flow-informed closed-loop wake mixing control framwork. To put in a more interesting way --- letting the turbine see the wind. ' +
+      'Thus, allowing turbines to form control actions adaptively and dynamically, making them smarter and more autonomous in decision-making process.',
   },
   {
     title: 'Super Auto Max: The Autonomous Racing System',
@@ -27,10 +27,10 @@ const data: Project[] = [
     image: '/images/projects/SuperAutoMax.png',
     date: '2023-10-01',
     desc:
-      'Can a race car drive itself? Absolutely! We answered this question by building Super-Auto-Max, ' +
-      'an autonomous race car powered by advanced AI and sensor technology that navigates the track without human input.' +
-      'Inspired by the human body, Max integrates perception (its eyes), state estimation (the brain sensory system), path planning (the prefrontal cortex), and control (the nervous system), ' +
-      'enabling it to drive autonomously and compete on the track.',
+      'Can a race car drive itself and win a race? Absolutely! We answered this question by building Super-Auto-Max, ' +
+      'an autonomous race system powered by AI, sensor, and advanced control technology that allow a race car (DUT24 in our case) to navigate the track without human input.' +
+      'Inspired by the human body, Super-Auto-Max integrates perception (the eyes), state estimation (the brain sensory system), path planning (the prefrontal cortex), and control (the nervous system), ' +
+      'enabling it to drive autonomously and compete on the track. Check out the demonstration video (Acceleration Competition) to see it in action!',
   },
   {
     title: 'AI Doctor for Ericsson 5G Network',
