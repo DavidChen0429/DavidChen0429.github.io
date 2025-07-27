@@ -12,7 +12,7 @@ Hey! I am currently a PhD student at the University of British Columbia (Vancouv
 # I Like
 
 - Muay Thai & Kickboxing
-- Hikiing
+- Hiking
 - Piano
 - Aviation
 - Nature
@@ -30,7 +30,7 @@ Hey! I am currently a PhD student at the University of British Columbia (Vancouv
 
 # I Dream Of
 
-- Meaningful relationships and a meaningful career.
+- Meaningful work, genuine friendships, and love that matters.
 - A world without war and with peace, where everyone can live in harmony with each other.
 
 # Favorite Quotes
