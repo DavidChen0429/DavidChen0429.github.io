@@ -100,8 +100,8 @@ interface EmailLinkProps {
 const EmailLink: React.FC = () => {
   return (
     <div className="inline-container">
-      <a href="mailto:chenzk0429@gmail.com">
-        <span>chenzk0429@gmail.com</span>
+      <a href="mailto:zkaichen@student.ubc.ca">
+        <span>zkaichen@student.ubc.ca</span>
       </a>
     </div>
   );

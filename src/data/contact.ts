@@ -48,7 +48,7 @@ const data: ContactItem[] = [
   //   icon: faTwitter,
   // },
   {
-    link: 'mailto:chenzk0429@gmail.com',
+    link: 'mailto:zkaichen@student.ubc.ca',
     label: 'Email',
     icon: faEnvelope,
   },

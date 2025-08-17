@@ -20,7 +20,7 @@ const SideBar: React.FC = () => {
         <header>
           <h2>Zekai Chen</h2>
           <p>
-            <a href="chenzk0429@gmail.com">chenzk0429@gmail.com</a>
+            <a href="zkaichen@student.ubc.ca">zkaichen@student.ubc.ca</a>
           </p>
         </header>
       </section>
