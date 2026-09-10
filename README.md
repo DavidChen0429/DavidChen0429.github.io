@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my [personal website](https://mldangelo.com)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) Next.js-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
+Welcome to my [personal website](https://davidchen0429.github.io)! This is an [MIT licensed](https://github.com/DavidChen0429/DavidChen0429.github.io/blob/main/LICENSE) Next.js-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
 
 ## 🚀 Features
 
@@ -12,7 +12,7 @@ Welcome to my [personal website](https://mldangelo.com)! This is an [MIT license
 
 ## 🛠 Adapting this Project
 
-Want to create your own personal website based on this project? You can set it up in as little as 30 minutes! Follow the setup instructions below and check out the **[detailed guide and checklist](./docs/adapting-guide.md)** on adapting this project to your needs. If you encounter any challenges, don't hesitate to contact me through an issue or email at [help@mldangelo.com](mailto:help@mldangelo.com).
+Want to create your own personal website based on this project? You can set it up in as little as 30 minutes! Follow the setup instructions below and check out the **[detailed guide and checklist](./docs/adapting-guide.md)** on adapting this project to your needs. If you encounter any challenges, don't hesitate to contact me through an issue or email at [zkaichen@student.ubc.ca](mailto:zkaichen@student.ubc.ca).
 
 ## 🤝 Contributing
 
@@ -27,8 +27,8 @@ Ensure you have [node](https://nodejs.org/) >= v20. Optionally, use [nvm](https:
 1. Clone the repository:
 
    ```bash
-   git clone git://github.com/mldangelo/personal-site.git
-   cd personal-site
+   git clone git://github.com/DavidChen0429/DavidChen0429.github.io.git
+   cd DavidChen0429.github.io
    ```
 
 2. (Optional) Ensure you're on Node v20 or higher:
@@ -112,4 +112,6 @@ npm test              # Run Jest tests
 
 ## 📝 License
 
-[MIT](https://github.com/mldangelo/personal-site/blob/main/LICENSE)
+[MIT](https://github.com/DavidChen0429/DavidChen0429.github.io/blob/main/LICENSE)
+
+Based on [mldangelo/personal-site](https://github.com/mldangelo/personal-site) (MIT).
