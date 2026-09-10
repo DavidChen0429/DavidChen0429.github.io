@@ -19,9 +19,6 @@ const SideBar: React.FC = () => {
         </Link>
         <header>
           <h2>Zekai Chen</h2>
-          <p>
-            <a href="zkaichen@student.ubc.ca">zkaichen@student.ubc.ca</a>
-          </p>
         </header>
       </section>
 
