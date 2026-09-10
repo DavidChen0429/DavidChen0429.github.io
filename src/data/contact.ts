@@ -7,8 +7,6 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faBookmark } from '@fortawesome/free-regular-svg-icons/faBookmark';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
-import { faFileText } from '@fortawesome/free-regular-svg-icons/faFileText';
-import { faPaperPlane } from '@fortawesome/free-regular-svg-icons/faPaperPlane';
 
 export interface ContactItem {
   link: string;
@@ -56,16 +54,6 @@ const data: ContactItem[] = [
     link: 'https://scholar.google.com/citations?user=qHe4B1MAAAAJ&hl=en',
     label: 'Book',
     icon: faBookmark,
-  },
-  {
-    link: '/CV_Zekai_Chen.pdf',
-    label: 'CV',
-    icon: faFileText,
-  },
-  {
-    link: 'https://medium.com/@chenzk0429',
-    label: 'Blogs and Social Events',
-    icon: faPaperPlane,
   },
 ];
 

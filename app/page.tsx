@@ -29,7 +29,6 @@ export default function HomePage() {
           <Link href="/projects">projects</Link>, <Link href="/stats">publications</Link>, or{' '}
           <Link href="/contact">contact</Link> me directly.
         </p>
-        <p>Viva la Vida.</p>
       </article>
     </PageWrapper>
   );

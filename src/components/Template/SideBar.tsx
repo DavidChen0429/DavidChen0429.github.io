@@ -29,8 +29,7 @@ const SideBar: React.FC = () => {
         <h2>About</h2>
         <p>
           Hi, I&apos;m Zekai (Kai). I am currently a PhD student at the University of British
-          Columbia (UBC) Vancouver, focusing on Systems & Control. Becoming Mr. Worldwide with a
-          strong passion for knowledge and life in general!
+          Columbia (UBC) Vancouver, focusing on Systems & Control.
         </p>
         <ul className="actions">
           <li>
