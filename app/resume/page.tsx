@@ -7,11 +7,9 @@ import Courses from '@/components/Resume/Courses';
 import Education from '@/components/Resume/Education';
 import Experience from '@/components/Resume/Experience';
 import References from '@/components/Resume/References';
-import Skills from '@/components/Resume/Skills';
 import awards from '@/data/resume/awards';
 import courses from '@/data/resume/courses';
 import degrees from '@/data/resume/degrees';
-import { categories, skills } from '@/data/resume/skills';
 import work from '@/data/resume/work';
 
 export const metadata: Metadata = {
@@ -22,7 +20,6 @@ export const metadata: Metadata = {
 const sections = [
   { name: 'Education', id: 'education' },
   { name: 'Experience', id: 'experience' },
-  // { name: 'Skills', id: 'skills' },
   { name: 'Awards', id: 'awards' },
   { name: 'Courses', id: 'courses' },
   { name: 'References', id: 'references' },
@@ -58,11 +55,6 @@ export default function ResumePage() {
         <div className="link-to" />
         <Experience data={work} />
       </section>
-
-      {/* <section id="skills" className="skills">
-        <div className="link-to" />
-        <Skills skills={skills} categories={categories} />
-      </section> */}
 
       <section id="courses" className="courses">
         <div className="link-to" />
